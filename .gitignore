@@ -1,13 +1,7 @@
+# Remove anything below the rappid folder.
 leaf-ui/rappid/*.*
-leaf-ui/rappid/3rdParty
-leaf-ui/rappid/BPMNEditor
-leaf-ui/rappid/dist
-leaf-ui/rappid/KitchenSink
-leaf-ui/rappid/lib
-leaf-ui/rappid/plugins
-leaf-ui/rappid/src
-leaf-ui/rappid/LICENSE
-leaf-ui/rappid/CHANGELOG
+leaf-ui/rappid/*/*
+!leaf-ui/rappid/README.md
 
 *.class
 
