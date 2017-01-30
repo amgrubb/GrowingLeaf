@@ -1,3 +1,7 @@
+leaf-ui/rappid/*.js
+leaf-ui/rappid/*.css
+
+
 *.class
 
 # Mobile Tools for Java (J2ME)
