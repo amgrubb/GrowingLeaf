@@ -12,8 +12,8 @@ var AnalysisInspector = Backbone.View.extend({
 
 		'<label class="sub-label">Select Analysis</label>',
 		'<button id="btn-forward-analysis" class="analysis-btns inspector-btn sub-label green-btn">Forward Analysis</button>',
-		'<button id="btn-rnd-sim" class="analysis-btns inspector-btn sub-label green-btn">Stochastic Simulation</button>',
-		'<button id="btn-simulate" class="analysis-btns inspector-btn sub-label green-btn">Leaf Simulate</button>',
+		'<button id="btn-rnd-sim" class="analysis-btns inspector-btn sub-label green-btn">Simulation over SEIs</button>',
+		'<button id="btn-simulate" class="analysis-btns inspector-btn sub-label green-btn">Simulation over EIs</button>',
 		'<button id="btn-csp" class="analysis-btns inspector-btn sub-label green-btn">CSP Analysis</button>',
 		'<button id="btn-csp-history" class="analysis-btns inspector-btn sub-label green-btn">CSP History</button>',
 		'<br>',
