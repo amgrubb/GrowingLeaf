@@ -18,9 +18,9 @@ f.close()
 
 #Calls the java file.
 #os.system("/u/gary/java/jre1.8.0_66/bin/java -jar /u/gary/bin/Sim.jar /u/gary/public_html/leaf-ui/cgi-bin/temp/tempfile")
-os.system("/u/naviechan/java/jre1.8.0_66/bin/java -jar /u/naviechan/bin/Sim.jar /u/naviechan/public_html/leaf/leaf-ui/cgi-bin/temp/tempfile")
+#os.system("/u/naviechan/java/jre1.8.0_66/bin/java -jar /u/naviechan/bin/Sim.jar /u/naviechan/public_html/leaf/leaf-ui/cgi-bin/temp/tempfile")
 # os.system("/u/marcel/java/jre1.8.0_66/bin/java -jar /u/marcel/bin/Sim.jar /u/marcel/public_html/leaf-ui/cgi-bin/temp/tempfile")
-#os.system("/u/amgrubb/java/jre1.8.0_66/bin/java -jar /u/amgrubb/bin/Sim.jar /u/amgrubb/public_html/leaf-ui/cgi-bin/temp/tempfile")
+os.system("/u/amgrubb/java/jre1.8.0_66/bin/java -jar /u/amgrubb/bin/Sim.jar /u/amgrubb/public_html/leaf-ui/cgi-bin/temp/tempfile")
 
 #Opens are parses the output file.
 f = open("temp/tempfile.out", "r")
